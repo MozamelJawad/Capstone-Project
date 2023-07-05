@@ -294,6 +294,37 @@ letter-spacing: -0.04375rem;
     justify-content: center;
 }
 
+/* text over image */
+
+.img-container {
+    position: relative;
+  }
+    
+  .img-container .content {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background: rgba(250, 9, 5, 0.4);
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .img-header, .img-text {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+
+  .img-header {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+
 /* footer */
 .footer-p-logo {
     display: flex;
@@ -364,6 +395,54 @@ letter-spacing: -0.04375rem;
     text-decoration-line: underline;
 }
 
+.about-footer {
+    background: #2E2E2E;
+}
+
+.about-footer-p {
+    color: #fff;
+}
+
+.summit-heading {
+    color: #2C2C2C;
+    font-size: 1.875rem;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: -0.05625rem;
+}
+
+.summit-section {
+    border-bottom: 1px solid #ccc;;
+}
+
+.past-p {
+    color: #838383;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3125rem;
+    letter-spacing: -0.03rem;
+}
+
+.summit-p {
+    color: #838383;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: -0.03rem;
+}
+
+.summit-logo {
+    border: 1px solid #ccc;
+}
+
 @media screen and (max-width: 768px) {
     .card{
         display: flex;
@@ -420,5 +499,9 @@ letter-spacing: -0.04375rem;
 
     .speakers {
         padding-top: 1rem;
+    }
+
+    .about-p {
+        padding: 1rem;
     }
 }
