@@ -3,7 +3,7 @@ const speakers = [
     id: 1,
     speakerName: 'Mozamel Jawad',
     speakerPosition: 'Database and Software Developer',
-    imgSource: 'assets/speakers/1.jpg',
+    imgSource: 'assets/speakers/1.JPG',
     description: 'He has Studied Computer Science Faculty at Kabul University, and currently working as a Senior Database and Software Developer with ABC Company',
   },
   {
@@ -17,14 +17,14 @@ const speakers = [
     id: 3,
     speakerName: 'M.Mozamel Jawad',
     speakerPosition: 'Full Stack Developer',
-    imgSource: 'assets/speakers/3.jpg',
+    imgSource: 'assets/speakers/3.JPG',
     description: 'He has Studied Computer Science at Kabul University, and currently working as a Senior Database and Software Developer with ABC Company',
   },
   {
     id: 4,
     speakerName: 'Ahmad Jawad',
     speakerPosition: 'Database and Software Developer',
-    imgSource: 'assets/speakers/1.jpg',
+    imgSource: 'assets/speakers/1.JPG',
     description: 'He has Studied Computer Science Faculty at Kabul University, and currently working as a Senior Database and Software Developer with ABC Company',
   },
   {
@@ -38,7 +38,7 @@ const speakers = [
     id: 6,
     speakerName: 'Jawad Mozamel',
     speakerPosition: 'Full Stack Developer',
-    imgSource: 'assets/speakers/3.jpg',
+    imgSource: 'assets/speakers/3.JPG',
     description: 'He has Studied Computer Science at Kabul University, and currently working as a Senior Database and Software Developer with ABC Company',
   },
 
