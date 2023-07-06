@@ -458,6 +458,7 @@ letter-spacing: -0.03rem;
 
 .summit-logo {
     border: 1px solid #ccc;
+    width: 40%;
 }
 
 @media screen and (max-width: 768px) {
@@ -467,6 +468,11 @@ letter-spacing: -0.03rem;
         align-items: center;
         gap: 3rem;
         justify-content: center;
+    }
+
+    .summit-logo {
+        border: 1px solid #ccc;
+        width: 60%;
     }
 
     .card-body {
