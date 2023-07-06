@@ -36,7 +36,8 @@
 
              <!-- Toggle button for mobile navbar -->
              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span onclick="ShowXicon()" class="navbar-toggler-icon" id="meneIcon"></span>
+                <span onclick="removeXiocn()" class="bi bi-x" id="Xicon"></span>
             </button>
             
             <a href="#intro" class="navbar-brand">
@@ -176,35 +177,31 @@
 
     <!-- feature speakers -->
     <section id="speakers">
-        <div class="container-lg">
-            <div class="text-center">
-                <h2 class="speakers">Featured Speakers</h2>
-            </div>
-            <div class="row align-items-center justify-content-center pt-5 g-1">
+        <div class="text-center">
+            <h2 class="speakers">Featured Speakers</h2>
+        </div>
+        <div class="container-lg pb-5">
+            <div class="row align-items-center justify-content-center pt-5" id="mainSection">
 
-                <div class="col-md-5 speaker-card mb-3">
-                    <div class="speaker-photo">
-                        <img src="assets/speakers/speaker_01 1.png" alt="eBook" class="speaker-photo">
-                    </div> 
+                <!-- <div class="col-md-5 speaker-card">
+                        <img src="assets/speakers/speaker_01 1.png" alt="eBook" class="img-fluid speaker-photo">
                     <div class="speaker-info">
                         <h1 class="name">Ahmad Ahmadi</h1>
                         <p class="speaker-job">Database specialist</p>
                         <div class="left-line"></div>
                         <p class="speaker-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>              
-                </div>  
+                </div>   -->
 
-                <div class="col-md-5 speaker-card mb-3">
-                    <div class="speaker-photo">
-                        <img src="assets/speakers/speaker_01 1.png" alt="eBook" class="speaker-photo">
-                    </div> 
+                <!-- <div class="col-md-5 speaker-card mb-3">
+                        <img src="assets/speakers/speaker_01 1.png" alt="eBook" class="img-fluid speaker-photo">
                     <div class="speaker-info">
                         <h1 class="name">Ahmad Ahmadi</h1>
                         <p class="speaker-job">Database specialist</p>
                         <div class="left-line"></div>
                         <p class="speaker-exp">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>              
-                </div>  
+                </div>   -->
             </div>
         </div>
     </section>

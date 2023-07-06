@@ -13,6 +13,18 @@ body {
     padding: 0 10rem 0 0;
 }
 
+#Xicon {
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 2rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: none;
+    border: none;
+}
+
 .nav-banner li a {
     color: #fff;
     font-size: 12px;
@@ -221,11 +233,12 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 1.25rem;
+    padding-bottom: 2rem;
 }
 
 .speaker-photo {
-    width: 6.6875rem;
-    height: 6.64994rem;
+    width: 10rem;
+    /* height: 6.64994rem; */
 }
 
 .name {
@@ -240,22 +253,23 @@ letter-spacing: -0.03rem;
 
 .speaker-job {
     color: #F78C89;
-font-size: 0.9375rem;
-font-family: Lato;
-font-style: normal;
-font-weight: 700;
-line-height: 1.3125rem;
-letter-spacing: -0.08438rem;
+    font-size: 0.9375rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3125rem;
+    letter-spacing: -0.018438rem;
 }
 
 .speaker-exp {
     color: #000;
-font-size: 0.875rem;
-font-family: Lato;
-font-style: normal;
-font-weight: 700;
-line-height: 1.5rem;
-letter-spacing: -0.04375rem;
+    font-size: 0.875rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: -0.014375rem;
+    padding-right: 0.5rem;
 }
 
 .left-line {
@@ -307,7 +321,6 @@ letter-spacing: -0.04375rem;
     background: rgba(250, 9, 5, 0.4);
     color: #fff;
     width: 100%;
-    padding: 1rem;
   }
 
   .img-header, .img-text {
@@ -336,7 +349,7 @@ letter-spacing: -0.04375rem;
 .footer-p {
     color: #000;
     font-size: 0.875rem;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 1.75rem;
@@ -365,7 +378,7 @@ letter-spacing: -0.04375rem;
     color: #000;
     text-align: center;
     font-size: 0.875rem;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem;
@@ -375,7 +388,7 @@ letter-spacing: -0.04375rem;
     color: #7A7A7A;
     text-align: center;
     font-size: 1rem;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 1rem;
@@ -387,7 +400,7 @@ letter-spacing: -0.04375rem;
     color: #5F5F5F;
     text-align: center;
     font-size: 1rem;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 1.5625rem;
@@ -421,7 +434,7 @@ letter-spacing: -0.04375rem;
     color: #838383;
     text-align: center;
     font-size: 1rem;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
     line-height: 1.3125rem;
@@ -479,15 +492,15 @@ letter-spacing: -0.04375rem;
     .speaker-card {
         width: 80%;
         display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
     }
 
     .nav-menu ul li:last-child a {
         color: #868686;;
         font-size: 0.875rem;
-        font-family: Lato;
+        font-family: 'Lato', sans-serif;
         font-style: normal;
         font-weight: 800;
     }
