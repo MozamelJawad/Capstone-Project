@@ -52,7 +52,7 @@ features
 
 ## Project Descriptive Video <a name="desc-video"></a>
 
-- [Project Descriptive Video link](https://www.loom.com/share/ead7be089979440a95dbaca38e98d3ef)
+- [Project Descriptive Video link](https://www.loom.com/share/5258d00339164b3b938bf7740e017379)
 
 ##
 <!-- Features -->
