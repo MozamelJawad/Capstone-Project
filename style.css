@@ -482,15 +482,15 @@ letter-spacing: -0.03rem;
     }
 
     .join-summit {
-    display: flex;
-    padding: 1.25rem 3.125rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    background: #ff4f38;
-    color: #fff;
-    cursor: pointer;
-    width: 80%;
+        display: flex;
+        padding: 1.25rem 3.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        background: #ff4f38;
+        color: #fff;
+        cursor: pointer;
+        width: 80%;
     }
 
     .speaker-card {
@@ -545,5 +545,9 @@ letter-spacing: -0.03rem;
         color:#F78C89;
         font-weight: 700;
         font-size: 1rem;
+    }
+
+    .upper-nav {
+        display: none;
     }
 }
