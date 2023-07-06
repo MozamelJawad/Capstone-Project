@@ -9,7 +9,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [Live Demo](#🚀-live-demo)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -47,10 +47,10 @@
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
+features
 - [Live Demo link](https://MozamelJawad.github.io/Capstone-Project/)
 
-## 🚀 Project Descriptive Video <a name="desc-video"></a>
+## Project Descriptive Video <a name="desc-video"></a>
 
 - [Project Descriptive Video link]()
 
