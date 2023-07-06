@@ -153,7 +153,8 @@ If you like this project, give a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank from Microverse
+- I would like to thank from Microverse
+- Thanks To [Cindy Shin](https://www.behance.net/adagio07) For the Original Design of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
