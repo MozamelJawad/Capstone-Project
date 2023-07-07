@@ -600,6 +600,10 @@ body {
     width: 90%;
   }
 
+  .about-header {
+    width: 100%;
+  }
+
   .date-show {
     letter-spacing: 0;
     font-weight: 600;
