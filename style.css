@@ -595,7 +595,7 @@ body {
   .display-5 {
     width: 60%;
   }
-  
+
   .lead-p {
     width: 90%;
   }
@@ -605,8 +605,8 @@ body {
     font-weight: 600;
   }
 
-  .date-p { 
-    letter-spacing: -0.009444;
+  .date-p {
+    letter-spacing: -0.009444rem;
     font-weight: 500;
   }
 }
