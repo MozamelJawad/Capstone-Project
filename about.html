@@ -1,0 +1,234 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>TechLife Development Company</title>
+</head>
+<body>
+<!-- Nav banner -->
+<div class="d-sm-none d-none d-md-block">
+    <ul class="nav justify-content-end py-1 nav-banner">
+        <li class="nav-item">
+        <a class="nav-link mt-1" href="#"><i class="bi bi-facebook"></i></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link mt-1" href="#"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">English</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">My Page</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Logout</a>
+        </li>
+    </ul>
+</div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+             <!-- Toggle button for mobile navbar -->
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span onclick="ShowXicon()" class="navbar-toggler-icon" id="meneIcon"></span>
+                <span onclick="removeXiocn()" class="bi bi-x" id="Xicon"></span>
+            </button>
+            
+            <a href="#intro" class="navbar-brand">
+                <span class="logo-container">
+                  <a href="index.html"><img class="img-fluid logo" src="assets/images/logo/techlife.png" alt=""></a> 
+                </span>
+            </a>
+
+           
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end pt-1 align-center nav-menu" id="main-nav">
+                <ul class="navbar-nav second-nav">
+                    <li class="nav-item pt-1">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item pt-1">
+                        <a class="nav-link" href="#">Program</a>
+                    </li>
+                    <li class="nav-item pt-1">
+                        <a class="nav-link" href="#">Join</a>
+                    </li>
+                    <li class="nav-item pt-1">
+                        <a class="nav-link" href="#">Sponsor</a>
+                    </li>
+                    <li class="nav-item pt-1">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CC Campaign</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About main page  -->
+    <section id="about-intro">
+        <div class="container-lg pt-5 background-gradient">
+            <div class="row justify-content-center text-center align-items-center">
+                <div class="col-md-10">
+                    <h1 class="col-md-8 offset-md-2">
+                        <div class="display-6 px-4 d-block d-md-none"> "Hello! Sharing World"</div>
+                        <div class="display-5 about-header">Techlife  Innovative  global summit 2023</div>
+                        <div class="line my-2"></div>
+                    </h1>
+                    <p class="about-p col-md-start">The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.<br>
+                        This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge.
+                    </p>
+
+                    <div class="pb-5 col-md-start">
+                        <p class="contact-p px-3 col-md-start">Please contact us per Email for any further questions about Techlife Global Summit 2023! <br>
+                            
+                        </p>
+                        <span class="email-a">info@techlife.af</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- submit section -->
+    <section id="summit-section">
+        <div class="container-lg">
+            <div class="text-center pt-5">
+                <h2 class="summit-heading pb-2">Techlife Innovative Global Summit 2023 Logo</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row my-3 align-items-center justify-content-center g-1">
+                <div class="col-md-8 text-center">
+                    <p class="submit-p col-md-start">The logo of TechLife Global Summit 2023 was decided the logo competition from 8, June to 7, July.<br>
+                        After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
+                        After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:
+                    </p>
+                </div>
+        
+            </div>
+
+            <div class="row pb-5 align-items-center text-center justify-content-center">
+                <div class=" col-md-4 summit-logo p-2">
+                   <img id="summit" src="assets/images/logo/Tech.png" alt="techlife logo" class="img-fluid">
+                </div> 
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- feature speakers -->
+    <section id="past-summit">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2 class="summit-heading pt-4 pb-2">See the Past TechLife Global Summits</h2>
+                <div class="line"></div>
+                <p class="past-p p-3">Take a look at the past two TechLife Global Summits which took place in Herat and in Kabul </p>
+            </div>
+            <div class="row photo-container justify-content-center pb-5 pt-2 g-1">
+
+                <div class="col-md-4 me-2 text-center">
+                    <div class="img-fluid img-container ">
+                        <div class=" mb-4">
+                            <img src="assets/background/past-summit-1.png" alt="Techlife 2021 summit" class="img-fluid">
+
+                            <div class="content pt-3">
+                              <h2 class="img-header">2021</h2>
+                              <p class="img-text">Techlife Innovative Global Summit in 2021</p>
+                            </div>
+                        </div>
+                    </div>              
+                </div>  
+
+                <div class="col-md-4 me-2 text-center img-container">
+                    <div class="img-fluid">
+                        <div class="img-container">
+                            <img src="assets/background/past-summit-2.png" alt="Techlife 2021 summit" class="img-fluid">
+
+                            <div class="content pt-3">
+                              <h2 class="img-header">2022</h2>
+                              <p class="img-text">Techlife Innovative Global Summit in 2022</p>
+                            </div>
+                        </div>
+                    </div>              
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+
+    <footer id="footer" class="hideInMobile">
+        <div class="container-fluid about-footer py-5">
+                <div class="col-md-8 offset-md-2">
+                    <div class="footer-p-logo">
+                        <div class="footer-logo">
+                            <img src="assets/images/logo/techlife.png" alt="mozilla" class="img-fluid logo">
+                        </div>
+                        <p class="about-footer-p footer-p">2023 Creative Commons Korea. Some Rights Reserved.</p>
+                    </div>
+                </div> 
+        </div>
+    </footer>
+
+    <!-- show in mobile -->
+
+    
+    <!-- partners  -->
+    <section id="partners" class="showInMobile">
+        <div class="container-fluid py-5 pt-3">
+            <div class="text-center">
+                <h2 class="partners">Partner</h2>
+                <div class="line"></div>
+            </div>
+
+                <div class="col-md-10 offset-md-1 pb-3 pt-5">
+                    <div class="partners-images">
+                        <div class="text-center">
+                            <img src="assets/partner/mozilla 1.png" alt="mozilla" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/partner/googlekorea 1.png" alt="Google" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/partner/naver 1.png" alt="Never" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/partner/daumkakaologo 1.png" alt="daumkakaologo" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/partner/airbnb 1.png" alt="daumkakaologo" class="img-fluid">
+                        </div>
+                    </div>
+                </div> 
+        </div>
+    </section>
+
+    <!-- mobile footer -->
+
+    <footer id="footer" class="showInMobile">
+        <div class="container-fluid py-5">
+                <div class="col-md-8 offset-md-2">
+                    <div class="footer-p-logo">
+                        <div class="footer-logo">
+                            <img src="assets/images/logo/techlife.png" alt="mozilla" class="img-fluid logo">
+                        </div>
+                        <p class="footer-p">2023 Creative Commons Korea. Some Rights Reserved.</p>
+                    </div>
+                </div> 
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="script.js"></script>    
+</body>
+</html>
