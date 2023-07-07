@@ -351,11 +351,13 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;
+  position: relative;
+  top: 3.3rem;
+  padding: 0 0.5rem;
 }
 
 .img-header {
   font-size: 1.5rem;
-  margin-top: 2rem;
 }
 
 /* footer */
@@ -629,7 +631,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 3rem;
+    gap: 1rem;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -644,11 +646,16 @@ body {
 
   .img-header {
     font-size: 2rem;
-    margin-top: 3rem;
-    padding-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .img-text {
     font-size: 1.2rem;
+  }
+
+  .img-header,
+  .img-text {
+    position: relative;
+    top: 7.5rem;
   }
 }
