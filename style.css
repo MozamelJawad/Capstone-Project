@@ -321,14 +321,6 @@ body {
   gap: 3rem;
   align-content: center;
   justify-content: center;
-  flex-wrap: wrap;
-}
-
-.partners-images > * {
-  flex-wrap: wrap;
-  flex: 1;
-  flex-basis: auto;
-  width: 30%;
 }
 
 /* text over image */
@@ -631,5 +623,22 @@ body {
   .date-p {
     letter-spacing: -0.009444rem;
     font-weight: 500;
+  }
+
+  .partners-images {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 3rem;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .partners-images > * {
+    flex-wrap: wrap;
+    flex: 1;
+    flex-basis: auto;
+    width: 30%;
   }
 }
