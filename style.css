@@ -13,6 +13,14 @@ body {
   padding: 0 10rem 0 0;
 }
 
+.second-nav {
+  margin: 0 7rem 0 0;
+}
+
+.logo-container {
+  margin-left: 4rem;
+}
+
 #Xicon {
   width: 1.5em;
   height: 1.5em;
@@ -316,10 +324,21 @@ body {
   flex-wrap: wrap;
 }
 
+.partners-images > * {
+  flex-wrap: wrap;
+  flex: 1;
+  flex-basis: auto;
+  width: 30%;
+}
+
 /* text over image */
 
 .img-container {
   position: relative;
+}
+
+.photo-container {
+  margin: 0 3rem;
 }
 
 .img-container .content {
@@ -339,12 +358,12 @@ body {
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 2rem;
+  line-height: 1rem;
 }
 
 .img-header {
-  font-size: 1.5rem;
-  margin-top: 4rem;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 /* footer */
